@@ -1,0 +1,25 @@
+***
+Raboti kontinuirano i na site bluetooth uredi vo blizina koga 
+kje gi vidi prviot pat im prakja vcard kontakt (vcard.vcf).
+Ako posle 6 chasa go vidi istiot ured povtorno kje mu prati
+sluchajna slikichka od sliki/ folderot.
+Se shto prai zapishiva vo logs/dobredojde.log i na konzola.
+
+Pogledni go dobredojde.py za da smenish nekoj od podesuvanjata.
+
+*** Potrebni biblioteki
+Pokraj python treba da ima i:
+- libbluetooth (apt-get install libbluetooth)
+- libbluetooth-dev (apt-get install libbluetooth-dev)
+- libbluetooth2 (apt-get install libbluetooth2)
+- python-bluez (apt-get install python-bluez)
+- libopenobex1 (apt-get install libopenobex1)
+- libopenobex1-dev (apt-get install libopenobex1-dev)
+- lightblue 0.3.2 (Od http://lightblue.sourceforge.net/ bidejki verzijata shto doagja so Ubuntu 8.04 e stara)
+
+*** Da se pushti
+tar -xzf bluetooth_doobredojde.tar.gz
+cd bluetooth_dobredojde
+./dobredojde.py
+
+
